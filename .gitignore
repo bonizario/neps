@@ -1,0 +1,15 @@
+# VS Code workspace settings
+/.vscode
+
+# Ignore every file extension inside /problems but .c, .cpp and .py
+/problems/**/*
+!/problems/**/
+!/problems/**/*.c
+!/problems/**/*.py
+!/problems/**/*.cpp
+
+# Ignore Code Runner extension tmp file
+/**/tempCodeRunnerFile.cpp
+
+# Ignore unfinished problems
+/problems/unfinished/**
